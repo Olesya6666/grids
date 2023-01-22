@@ -1,0 +1,99 @@
+.header,
+.main,
+.aside,
+.footer,
+.section1,
+.section2,
+.section3,
+.footer1,
+.footer2,
+.footer3,
+.footer4 {
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  background: rgb(239, 233, 233);
+  grid-column: 1/4;
+}
+
+.main {
+  background: rgb(239, 226, 193);
+}
+
+.aside {
+  background: rgb(199, 237, 139);
+}
+
+.footer {
+  background: rgb(239, 233, 233);
+  grid-column: 1/4;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 13% 55% 22%;
+  height: 90vh;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 90% 90% 90%;
+  gap: 1px;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+}
+
+.section1 {
+  background: rgb(234, 196, 70);
+  grid-column: 1/2;
+  width: 350px;
+  align-self: flex-end;
+  height: 70px;
+}
+
+.section2 {
+  background: rgb(234, 196, 70);
+  width: 350px;
+  align-self: flex-end;
+  height: 70px;
+}
+
+.section3 {
+  background: rgb(234, 196, 70);
+  grid-column: 1/2;
+  width: 730px;
+  align-self: flex-end;
+  height: 70px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  padding: 15px;
+  align-items: center;
+}
+
+.footer1 {
+  background: rgb(247, 247, 244);
+  height: 90px;
+}
+
+.footer2 {
+  background: rgb(247, 247, 244);
+  height: 90px;
+}
+
+.footer3 {
+  background: rgb(247, 247, 244);
+  height: 90px;
+}
+
+.footer4 {
+  background: rgb(247, 247, 244);
+  height: 90px;
+}
